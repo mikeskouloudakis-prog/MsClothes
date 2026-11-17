@@ -2,6 +2,20 @@
 
 MsClothes is an academic web development project created as part of my Computer Science studies. It presents a static fashion e-commerce website concept with separate sections for men's and women's clothing, shoes, accessories, lifestyle content, company information, and contact details.
 
+## Screenshots
+
+### Homepage
+![MsClothes homepage](screenshots/homepage.png)
+
+### Men's Clothing
+![Men's clothing page](screenshots/mens-clothing.png)
+
+### Women's Clothing
+![Women's clothing page](screenshots/womens-clothing.png)
+
+### Lifestyle
+![Lifestyle page](screenshots/lifestyle.png)
+
 ## Features
 
 - Multi-page website with navigation between the main sections
