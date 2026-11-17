@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MsClothes - Contact</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <a href="MsClothes.html"><img src="images/msclothes.png" width="60%" height="auto"></a>
+            </div>
+            <nav>
+                <ul>
+                  <li><a href="MsClothes.html">Αρχική</a></li>
+                  <li><a href="men.html">Ανδρικά</a></li>
+                  <li><a href="women.html">Γυναικεία</a></li>
+                  <li><a href="Lifestyle.html">Lifestyle</a></li>
+                  <li><a class="active" href="contact.html">Επικοινωνία</a></li>
+                  <li><a href="company.html">Η Εταιρία μας</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br>
+        <h1>Οι ερωτήσεις σας μπορεί να έχουν απαντηθεί από εμάς απλά διαβάζοντας τους όρους χρήσης. Αν χρειάζεστε περαιτέρω διευκρινίσεις 
+          ή πληροφορίες θα χαρούμε να σας εξυπηρετήσουμε!</h1>
+        <div class="form-container">
+          <div class="contact-form">
+            <form>
+            <label for="fname">Όνομα:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="Κινητό">Κινητό</label><br>
+            <input type="tel" id="Κινητό" name="Κινητό" pattern="[0-9]" required><br>
+            </form>
+            <p>Ενδιαφέρομαι για:</p>
+            <form>
+            <input type="radio" id="men" name="interest_in" value="men">
+            <label for="men">Ανδρικά</label>
+            <input type="radio" id="women" name="interest_in" value="women">
+            <label for="women">Γυναικεία</label>
+            <input type="radio" id="kids" name="interest_in" value="kids">
+            <label for="kids">Παιδικά</label><br>
+            </form>
+          <br>
+          <form>
+            <input type="checkbox" id="terms" name="terms" value="ναι">
+            <label id="terms" for="ναι">Έχω διαβάσει τους Όρους και συμφωνώ</label>
+          </form>
+          <br>
+          <form>
+            <input type="submit" value="ΑΠΟΣΤΟΛΗ">
+          </form>
+        </div>
+      </div>
+          <footer>
+            <table id="Social">
+              <tr>
+                  <th>Let's Be Social:</th>
+                  <td>
+                      <a href="https://www.instagram.com/?hl=el"><img src="images/Instagram_logo.png" width="40px"></a>
+                      <a href="https://www.facebook.com/"><img src="images/fblogo.png" width="40px"></a>
+                      <a href="https://www.youtube.com/"><img src="images/ylogo.png" width="40px"></a>
+                      <a href="https://x.com/home?lang=el"><img src="images/xlogo.png" width="40px"></a>
+                  </td>
+              </tr>
+            </table>
+          </footer>
+    </body>
+</html>
